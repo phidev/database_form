@@ -1,0 +1,58 @@
+.main {
+  margin-top: 50px;
+  margin-left: 500px;
+  margin-right: 500px;
+  border: 2px black solid;
+  font-family: sans-serif;
+  text-align: center;
+}
+h2 {
+  margin: 8px;
+  padding: 8px;
+  text-align: center;
+}
+
+input[type="text"],
+[type="email"] {
+  margin: 8px;
+  padding: 8px;
+  border: 2px solid black;
+  border-radius: 5px;
+  outline: none;
+  font-size: x-large;
+}
+
+input[type="submit"] {
+  margin: 8px;
+  padding: 8px;
+  font-size: x-large;
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 5px;
+  outline: none;
+  color: #ffffff;
+  background-color: #0275d8;
+}
+
+#textarea {
+  width: 300px;
+  height: 200px;
+  margin: 8px;
+  padding: 8px;
+  font-size: x-large;
+  border: 2px solid black;
+  border-radius: 5px;
+  outline: none;
+}
+
+::placeholder {
+  color: #000000;
+}
+
+input:valid {
+  border: 2px green solid;
+}
+
+#textarea:valid {
+  border: 2px green solid;
+}
